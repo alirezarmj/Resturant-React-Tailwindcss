@@ -63,7 +63,7 @@ const filterPrice=(price)=>{
       </div>
       <div className="w-full grid grid-cols-2 lg:grid-cols-4 gap-2 py-4 rounded-lg">
         {foods.map((food) => (
-          <div className=" rounded-xl hover:scale-105 hover:duration-300 duration-300 shadow-xl">
+          <div className=" rounded-xl hover:scale-105 hover:duration-300 duration-300 shadow-xl cursor-pointer">
             <img
               className="w-full h-[170px] lg:h-[200px] object-cover rounded-lg"
               src={food.image}
